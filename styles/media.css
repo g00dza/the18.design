@@ -40,11 +40,15 @@
 }
 
 @media (max-width: 1024px) {
+  body:focus-within {
+    overflow-y: hidden;
+  }
+
   .header__menu-button {
     display: inline-flex;
   }
 
-  .header__menu-button:focus ~ .navbar {
+  .header__menu-button:focus-within ~ .navbar {
     left: 0;
   }
 
