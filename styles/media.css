@@ -40,10 +40,6 @@
 }
 
 @media (max-width: 1024px) {
-  body:focus-within {
-    overflow-y: hidden;
-  }
-
   .header__menu-button {
     display: inline-flex;
   }
